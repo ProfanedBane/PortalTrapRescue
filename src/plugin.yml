@@ -1,0 +1,6 @@
+name: PortalTrapRescue
+version: 1.0.0
+author: ProfanedBane
+website: https://github.com/ProfanedBane/PortalTrapRescue
+main: com.gmail.profanedbane.PortalTrapRescue.PortalTrapRescue
+description: Detects when a player stays inside a nether portal, and teleports them out.

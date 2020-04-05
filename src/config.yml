@@ -1,0 +1,10 @@
+# Times are ticks (Minecraft runs at 20 ticks per second if performance is ideal)
+
+# How long standing in a portal block until the player is rescued
+rescueDelay: 1200
+# Message to display to player after being rescued
+rescueMessage: "You have been teleported out of a Nether Portal due to not moving."
+# Message to display to player when logging in while inside a portal
+spawnMessage: "You have logged in inside a portal, if you are trapped you will be teleported to spawn in roughly a minute."
+# World spawn to send players to if they login stuck in a portal
+spawnWorld: "world"
