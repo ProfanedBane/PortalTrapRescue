@@ -7,6 +7,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import static org.bukkit.Bukkit.getWorld;
 
+// On login, check if a player is inside a Nether Portal they can't travel through
+// Teleport them to spawn if they remain there
 public class LoginPortalTrapRescueTask extends BukkitRunnable {
     private Player player;
     private PortalTrapRescue plugin;

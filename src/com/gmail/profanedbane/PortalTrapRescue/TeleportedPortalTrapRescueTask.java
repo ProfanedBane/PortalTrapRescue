@@ -5,6 +5,8 @@ import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
+// Check if players are still stuck in a Nether Portal after going through it
+// Teleport them back to where they came from if so
 public class TeleportedPortalTrapRescueTask extends BukkitRunnable {
     private Player player;
     private PortalTrapRescue plugin;

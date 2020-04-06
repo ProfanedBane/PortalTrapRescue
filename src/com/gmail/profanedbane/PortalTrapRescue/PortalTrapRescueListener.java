@@ -35,7 +35,7 @@ public class PortalTrapRescueListener implements Listener {
     }
 
     // Players logging in
-    // Check if PortalCooldown >= 10, this indicates they are inside a portal block unable to teleport out
+    // Check if PortalCooldown >= 10, this indicates the player is remaining in a portal they can't travel through
     @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGH)
     private void playerJoined(PlayerJoinEvent event) {
         Player player = event.getPlayer();
